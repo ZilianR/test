@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title><%= title %></title>
+    <%- include("partials/head"); %>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p><%= subTitle %></p>
+    <%- include("partials/navbar"); %>
+
+    <div class="container m-4">
+      <h1><%= title %></h1>
+      <p><%= subTitle %></p>
+    </div>
   </body>
 </html>
